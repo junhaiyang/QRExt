@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
   s.name         = "QRExt"
   s.version      = "1.0.0"
-  s.summary      = "A short description of QRExt."
+  s.summary      = "根据字符串生成二维码集合工具"
  
   s.homepage     = "https://github.com/junhaiyang/QRExt"
  
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author             = { "yangjunhai" => "junhaiyang@gmail.com" } 
   s.ios.deployment_target = "6.0" 
  
-  s.source = { :git => 'https://github.com/junhaiyang/QRExt.git' } 
+  s.source = { :git => 'https://github.com/junhaiyang/QRExt.git', :tag => '1.0.0' } 
  
   s.requires_arc = true
    
